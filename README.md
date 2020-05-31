@@ -1,6 +1,7 @@
 부트스트랩 사용자 가이드
 =====
 * [이 책](https://book.naver.com/bookdb/book_detail.nhn?bid=7530149)을 목차대로 실습해보며 관련 내용 기록
+* 부트스트랩은 오픈소스 프론트엔드 툴킷으로 UI와 관련된 컴포넌트들을 체계적으로 정리하고, 표준화된 모델을 제시
 - - -
 ## 목차
 1. [참고문헌](#참고문헌)
@@ -10,8 +11,16 @@
 5. [유용한 플러그인](#유용한-플러그인)
 
 ## 참고문헌
-* [Bootstrap Repository](https://github.com/twbs)
-* [Bootstrap Homepage](https://getbootstrap.com/)
+* Bootstrap
+	* [Repository](https://github.com/twbs)
+	* [Homepage](https://getbootstrap.com/)
+* [jQuery](https://jquery.com/download/)
+
+- - -
+* 부트스트랩을 다운로드해서 압축을 풀면 css와 js, 그리고 font 파일이 포함
+	* 컴파일된 CSS, JS(`bootstrap.*`) 파일들과 압축파일(`bootstrap.min.*`) 포함
+	* 직접 다운로드하지 않고 CDN 통해서도 이용 가능
+* 부트스트랩은 jQuery를 이용하고 있지만, 포함되어 있지 않으므로 최신 jQuery 별도 추가 필요
 
 ##### [목차로 이동](#목차)
 
@@ -23,7 +32,7 @@
 ## 구성 요소
 1. 부트스트랩 소개와 다운로드
 2. 시작하기
-3. 그리드 시스템
+3. [그리드 시스템](.docs/ch02_03.md)
 4. 타이포그래피, 코드, 테이블
 5. 폼
 6. 버튼, 이미지, 헬퍼
